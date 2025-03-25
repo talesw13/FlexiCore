@@ -1,0 +1,57 @@
+{
+  "packages": [
+    {
+      "name": "FlexiCore",
+      "maintainer": "FlexiCore Community",
+      "websiteURL": "https://github.com/FlexiCore/Arduino",
+      "email": "thalles@FlexiCore.com",
+      "help": {
+        "online": "https://FlexiCore.com/arduino"
+      },
+      "platforms": [
+        {
+          "category": "FlexiCore",
+          "name": "FlexiCore",
+          "url": "https://github.com/FlexiCore/Arduino/releases/download/1.0.0/FlexiCore-1.0.0.zip",
+          "version": "1.0.0",
+          "architecture": "atmega328",
+          "archiveFileName": "FlexiCore-1.0.0.zip",
+          "boards": [
+            {
+              "name": "FlexiCore uno"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp8266",
+              "version": "3.1.0-gcc10.3-e5f9fec",
+              "name": "xtensa-lx106-elf-gcc"
+            },
+            {
+              "packager": "esp8266",
+              "version": "3.1.0-gcc10.3-e5f9fec",
+              "name": "mkspiffs"
+            },
+            {
+              "packager": "esp8266",
+              "version": "3.1.0-gcc10.3-e5f9fec",
+              "name": "mklittlefs"
+            },
+            {
+              "packager": "esp8266",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ],
+          "help": {
+            "online": "https://arduino-esp8266.readthedocs.io/en/3.1.2/"
+          },
+          "size": "39269515",
+          "checksum": "SHA-256:b3f47686d7783c120c2f10bf82788f921c53db8642cc87012599abb6e335b182"
+        }
+        
+      ]
+
+    }
+  ]
+}
